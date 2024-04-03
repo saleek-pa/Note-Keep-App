@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 500px;
+}
+
+.form input {
+  padding: 10px 20px;
+  font-size: 15px;
+}
+
+.form textarea {
+  padding: 10px 20px;
+  border-radius: 0px 0px 10px 10px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.close-btn, .add-btn {
+  padding: 7px;
+  flex-grow: 1;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}

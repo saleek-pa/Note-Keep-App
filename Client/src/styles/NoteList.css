@@ -1,0 +1,26 @@
+.note-list {
+  margin-top: 20px;
+  display: flex;
+  padding: 0px 100px;
+}
+
+.grid {
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.list {
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.note-card {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}

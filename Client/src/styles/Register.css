@@ -1,0 +1,16 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration-form input {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
